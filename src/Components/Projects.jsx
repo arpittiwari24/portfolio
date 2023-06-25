@@ -4,6 +4,8 @@ const Projects = () => {
   return (
     <div className="flex flex-col space-y-4">
     <div className="flex flex-row ">
+
+      {/* Clock App */}
      <div className="basis-1/3  px-8">
         <div className="card card-compact w-96 bg-base-100 shadow-xl">
           <figure>
@@ -16,17 +18,17 @@ const Projects = () => {
             <h2 className="card-title">Clock App</h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
             <div className="card-actions justify-end">
-              <a href="https://clock-app-coral-eight.vercel.app/"><button className="btn btn-primary">Demo</button></a>
+              <a href="https://clock-app-coral-eight.vercel.app/" target="_blank"><button className="btn btn-primary">Demo</button></a>
             </div>
           </div>
         </div>
       </div>
-
+        {/* Weather App */}
       <div className="basis-1/3 px-8" >
         <div className="card card-compact w-96 bg-base-100 shadow-xl">
           <figure>
             <img
-              src="https://pbs.twimg.com/profile_images/1599295746008023042/vqy6mgci_400x400.jpg"
+              src="weather image.jpg"
               alt="Shoes"
             />
           </figure>
@@ -34,7 +36,7 @@ const Projects = () => {
             <h2 className="card-title">Weather App</h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
             <div className="card-actions justify-end">
-            <a href="https://weather-app-rho-dun.vercel.app/ "><button className="btn btn-primary">Demo</button></a>
+            <a href="https://weather-app-rho-dun.vercel.app/" target="_blank"><button className="btn btn-primary">Demo</button></a>
             </div>
           </div>
         </div>
@@ -82,15 +84,15 @@ const Projects = () => {
         <div className="card card-compact w-96 bg-base-100 shadow-xl">
           <figure>
             <img
-              src="https://pbs.twimg.com/profile_images/1599295746008023042/vqy6mgci_400x400.jpg"
+              src="evogym.jpg"
               alt="Shoes"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Shoes!</h2>
+            <h2 className="card-title">Evo Gym</h2>   
             <p>If a dog chews shoes whose shoes does he choose?</p>
             <div className="card-actions justify-end">
-              <button className="btn btn-primary">Buy Now</button>
+            <a href="https://gym-page-ten.vercel.app/" target="_blank"><button className="btn btn-primary">Demo</button></a>
             </div>
           </div>
         </div>
