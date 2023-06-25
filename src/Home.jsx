@@ -1,6 +1,8 @@
+import Contact from "./Components/Contact"
 import Hero from "./Components/Hero"
 import Navbar from "./Components/Navbar"
 import Projects from "./Components/Projects"
+import Skills from "./Components/Skills"
 
 
 const Home = () => {
@@ -9,14 +11,18 @@ const Home = () => {
     <div>
       <Navbar />
     </div>
-    <div>
-    <div className="z-10">
+    <div >
       <Hero />
     </div>
-    <div className="-z-10">
+    <div>
       <h1 className="text-white text-center text-5xl font-bold pb-8">Projects</h1>
       <Projects />
     </div>
+    <div>
+      <Skills />
+    </div>
+    <div>
+      <Contact />
     </div>
   </div>
   )

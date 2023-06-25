@@ -20,6 +20,7 @@ const Navbar = () => {
       <li><a href="https://twitter.com/arrpitttwts" target="_blank" className="text-2xl">Twitter</a></li>
       <li><a href="https://github.com/arpittiwari24" target="_blank" className="text-2xl">Github</a></li>
       <li><a href="https://www.linkedin.com/in/arrpit-tiwari-0447b5228/" target="_blank" className="text-2xl">LinkedIn</a></li>
+      <li><a href="mailto:atofficial2410@gmail.com" target="_blank" className="text-2xl">Email</a></li>
     </ul>
   </div>
 </div>
