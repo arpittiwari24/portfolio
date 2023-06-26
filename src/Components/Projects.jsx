@@ -2,12 +2,12 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div className="flex flex-col space-y-4">
-    <div className="flex flex-row ">
+    <div className="flex flex-col space-y-4 tablet:items-center mobile:items-center">
+    <div className="flex flex-row mobile:flex-col">
 
       {/* Clock App */}
-     <div className="basis-1/3  px-8">
-        <div className="card card-compact w-96 bg-base-100 shadow-xl">
+     <div className="basis-1/3 mobile:basis-1  px-8 mobile:p-2">
+        <div className="card card-compact w-96 mobile:w-72 bg-base-100 shadow-xl">
           <figure>
             <img
               src="clock image.jpg"
@@ -24,8 +24,8 @@ const Projects = () => {
         </div>
       </div>
         {/* Weather App */}
-      <div className="basis-1/3 px-8" >
-        <div className="card card-compact w-96 bg-base-100 shadow-xl">
+      <div className="basis-1/3 mobile:basis-1  px-8 mobile:p-2 " >
+        <div className="card card-compact w-96  mobile:w-72 bg-base-100 shadow-xl">
           <figure>
             <img
               src="weather image.jpg"
@@ -41,8 +41,11 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div className="basis-1/3" >
-        <div className="card card-compact w-96 bg-base-100 shadow-xl">
+
+        {/* Third project */}
+
+      <div className="basis-1/3 mobile:basis-1 px-8 mobile:p-2" >
+        <div className="card card-compact w-96 mobile:w-72 bg-base-100 shadow-xl">
           <figure>
             <img
               src="https://pbs.twimg.com/profile_images/1599295746008023042/vqy6mgci_400x400.jpg"
@@ -60,9 +63,9 @@ const Projects = () => {
       </div>
      </div>
 
-     <div className="flex flex-row ">
-     <div className="basis-1/3 px-8">
-        <div className="card card-compact w-96 bg-base-100 shadow-xl">
+     <div className="flex flex-row mobile:flex-col">
+     <div className="basis-1/3 mobile:basis-1 px-8 mobile:p-2">
+        <div className="card card-compact w-96 mobile:w-72 bg-base-100 shadow-xl">
           <figure>
             <img
               src="https://pbs.twimg.com/profile_images/1599295746008023042/vqy6mgci_400x400.jpg"
@@ -80,8 +83,8 @@ const Projects = () => {
       </div>
 
 
-      <div className="basis-1/3 px-8" >
-        <div className="card card-compact w-96 bg-base-100 shadow-xl">
+      <div className="basis-1/3 mobile:basis-1 px-8 mobile:p-2" >
+        <div className="card card-compact w-96 mobile:w-72 bg-base-100 shadow-xl">
           <figure>
             <img
               src="evogym.jpg"
@@ -97,8 +100,8 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div className="basis-1/3" >
-        <div className="card card-compact w-96 bg-base-100 shadow-xl">
+      <div className="basis-1/3 mobile:basis-1 px-8 mobile:p-2" >
+        <div className="card card-compact w-96 mobile:w-72 bg-base-100 shadow-xl">
           <figure>
             <img
               src="https://pbs.twimg.com/profile_images/1599295746008023042/vqy6mgci_400x400.jpg"

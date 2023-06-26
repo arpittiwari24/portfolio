@@ -1,4 +1,5 @@
 import Contact from "./Components/Contact"
+import Footer from "./Components/Footer"
 import Hero from "./Components/Hero"
 import Navbar from "./Components/Navbar"
 import Projects from "./Components/Projects"
@@ -15,7 +16,7 @@ const Home = () => {
       <Hero />
     </div>
     <div>
-      <h1 className="text-white text-center text-5xl font-bold pb-8">Projects</h1>
+      <h1 className="text-white text-center text-5xl font-bold pb-10 mobile:text-3xl">Projects</h1>
       <Projects />
     </div>
     <div>
@@ -23,6 +24,9 @@ const Home = () => {
     </div>
     <div>
       <Contact />
+    </div>
+    <div>
+      <Footer />
     </div>
   </div>
   )
