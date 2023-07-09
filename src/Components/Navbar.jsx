@@ -5,7 +5,7 @@ import { Link, Outlet } from 'react-router-dom'
 const Navbar = () => {
   return (
     <div>
-           <div className="navbar ">
+           <div className="navbar">
   <div className="flex-1">
   <div className="drawer">
   <input id="my-drawer" type="checkbox" className="drawer-toggle" />
