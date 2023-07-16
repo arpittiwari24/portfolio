@@ -16,7 +16,7 @@ const Projects = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">Clock App</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            
             <div className="card-actions justify-end">
               <a href="https://clock-app-coral-eight.vercel.app/" target="_blank"><button className="btn btn-primary">Demo</button></a>
             </div>
@@ -34,7 +34,7 @@ const Projects = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">Weather App</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            
             <div className="card-actions justify-end">
             <a href="https://weather-app-rho-dun.vercel.app/" target="_blank"><button className="btn btn-primary">Demo</button></a>
             </div>
@@ -48,15 +48,14 @@ const Projects = () => {
         <div className="card card-compact w-96  bg-base-100 shadow-xl">
           <figure>
             <img
-              src="https://pbs.twimg.com/profile_images/1599295746008023042/vqy6mgci_400x400.jpg"
-              alt="Shoes"
+              src="Movies.jpg"
+              alt="Movies"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <h2 className="card-title">Movie Search </h2>
             <div className="card-actions justify-end">
-              <button className="btn btn-primary">Buy Now</button>
+              <button className="btn btn-primary">Demo</button>
             </div>
           </div>
         </div>
@@ -68,15 +67,15 @@ const Projects = () => {
         <div className="card card-compact w-96  bg-base-100 shadow-xl">
           <figure>
             <img
-              src="https://pbs.twimg.com/profile_images/1599295746008023042/vqy6mgci_400x400.jpg"
+              src="WhatsApp Image 2023-07-16 at 18.40.42.jpg"
               alt="Shoes"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <h2 className="card-title">TinDog</h2>
+            
             <div className="card-actions justify-end">
-              <button className="btn btn-primary">Buy Now</button>
+            <a href="https://gym-page-ten.vercel.app/" target="_blank"><button className="btn btn-primary">Demo</button></a>
             </div>
           </div>
         </div>
@@ -93,7 +92,7 @@ const Projects = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">Evo Gym</h2>   
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            
             <div className="card-actions justify-end">
             <a href="https://gym-page-ten.vercel.app/" target="_blank"><button className="btn btn-primary">Demo</button></a>
             </div>
@@ -104,15 +103,15 @@ const Projects = () => {
         <div className="card card-compact w-96  bg-base-100 shadow-xl">
           <figure>
             <img
-              src="https://pbs.twimg.com/profile_images/1599295746008023042/vqy6mgci_400x400.jpg"
+              src="dice.jpg"
               alt="Shoes"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <h2 className="card-title">Dice Game</h2>
+            
             <div className="card-actions justify-end">
-              <button className="btn btn-primary">Buy Now</button>
+            <a href="https://dice-game-one-sigma.vercel.app/?vercelToolbarCode=BwHkelAjdOm31r2" target="_blank"><button className="btn btn-primary">Demo</button></a>
             </div>
           </div>
         </div>
