@@ -15,8 +15,8 @@ const Home = () => {
     <div >
       <Hero />
     </div>
-    <div>
-      <h1 className="text-white text-center text-5xl font-bold pb-10 mobile:text-3xl">Projects</h1>
+    <div className="max-sm:pt-20">
+      <h1 className="text-white text-center text-5xl font-bold pb-10 max-sm:text-4xl">Projects</h1>
       <Projects />
     </div>
     <div>
