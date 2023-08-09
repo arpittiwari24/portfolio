@@ -74,7 +74,7 @@ const Projects = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Talentdrop</h2>
+            <h2 className="card-title">Talentdrop Clone</h2>
             
             <div className="card-actions justify-end">
             <a href="https://talentdrop-clone.vercel.app/" target="_blank"><button className="btn btn-primary">Demo</button></a>
@@ -107,15 +107,15 @@ const Projects = () => {
         <div className="card card-compact md:w-96 w-60 h-full bg-base-100 shadow-xl">
           <figure>
             <img
-              src="dice.jpg"
+              src="Todo-App.jpg"
               alt="Shoes"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Dice Game</h2>
+            <h2 className="card-title">Todo-App</h2>
             
             <div className="card-actions justify-end">
-            <a href="https://dice-game-one-sigma.vercel.app/?vercelToolbarCode=BwHkelAjdOm31r2" target="_blank"><button className="btn btn-primary">Demo</button></a>
+            <a href="https://todo-frontend-mu-two.vercel.app/" target="_blank"><button className="btn btn-primary">Demo</button></a>
             </div>
           </div>
         </div>
