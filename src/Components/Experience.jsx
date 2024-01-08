@@ -10,34 +10,30 @@ const Experience = () => {
                   <h3 className="text-2xl max-sm:text-xl font-semibold">
                     Full Stack Developer Intern
                   </h3>
-                  <p className="text-lg underline italic"><a href="https://missionelixir.com/" target='_blank'>Silverseven Enterprises</a></p>
+                  <p className="text-lg underline italic"><a href="https://silverseven.com/" target='_blank'>Silverseven Enterprises</a></p>
                 </div>
                 <div className="text-xl max-sm:text-xs">Dec-2023 - Present</div>
               </div>
               <ul className="list-disc pl-4">
-                <li>
-                  About to work on the Mission Elixir Website .....
-                </li>
-              </ul>
-              <div className="flex justify-between items-center pt-12">
-                <div>
-                  <h3 className="text-2xl max-sm:text-xl font-semibold">
-                    Freelance Developer 
-                  </h3>
-                  <p className="text-lg underline italic"><a href="https://poshan.in/" target='_blank'>Poshan for All</a></p>
-                </div>
-                <div className="text-xl max-sm:text-xs">Nov-2023 - Present</div>
-              </div>
-              <ul className="list-disc pl-4">
                 <li className='py-2'>
-                  Developing and maintaining web application for the Poshan for All (NGO)
+                Developed a comprehensive website for the NGO Poshan for All as part of a collaboration with Silverseven
+Enterprises.
                 </li>
                 <li className='py-2'>
-                  Working closely with the client to understand their needs and
-                  requirements
+                Implemented the entire web application using the MERN stack (MongoDB, Express.js, React.js, Node.js) from
+scratch, showcasing full-stack development skills.
                 </li>
                 <li className='py-2'>
-                  Delivering high-quality work on time and within budget
+                Took ownership of the project, managing the entire development lifecycle independently as a full stack developer
+intern
+                </li>
+                <li className="py-2">
+                • Implemented robust backend functionalities using Node.js and Express.js, including database management with
+MongoDB.
+                </li>
+                <li className="py-2">
+                Collaborated with the NGO stakeholders to gather requirements, incorporating feedback for continuous
+improvement.
                 </li>
               </ul>
             </div>
