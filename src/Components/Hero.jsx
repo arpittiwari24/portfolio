@@ -19,7 +19,7 @@ const Hero = () => {
     <div className='px-6 '>
       <h1 className="text-white max-sm:text-5xl text-7xl font-bold font-serif">Hello !!</h1>
       <p className="text-white text-3xl py-10 max-sm:text-xl">I am Arrpit Tiwari , a Full-Stack Developer. I can debug your code faster than a hummingbird on Red Bull. Just don't ask me to explain it in plain English.</p>
-      <a href="https://petite.onrender.com/ThMGo1" target="_blank"><button  className="btn btn-warning animate-bounce hover:btn-success">View  Resume</button></a>
+      <a href="https://drive.google.com/file/d/10WpAgG2qkYyXEj4psnSxSoObePuoU9Sw/view?usp=sharing" target="_blank"><button  className="btn btn-warning animate-bounce hover:btn-success">View  Resume</button></a>
     </div>
   </div>
 </div>
