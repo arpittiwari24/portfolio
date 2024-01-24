@@ -1,7 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 :root {
     --gradient-color-1: #000;
     --gradient-color-2: #800000;

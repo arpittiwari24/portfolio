@@ -4,18 +4,161 @@
     <meta charset="UTF-8" />
     <link rel="icon"  href="favicon.ico" />
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Arrpit Tiwari</title>
     <meta name="description" content="This is the portfolio website of Arrpit Tiwari, a full stack developer"/>
     <meta name="keywords" content="Arrpit, Arrpit Tiwari, Arpit, Arpit Tiwri, Portfolio, Full Stack Developer , Web Developer, Freelancer, Web Developer in Delhi, India" />
+    <script src="https://kit.fontawesome.com/2f9251257a.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <div id="root"></div>
-    <script>
-      window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
-    </script>
+    <!-- <div id="root"></div> -->
     <script defer src="/_vercel/insights/script.js"></script>
-    <script src="https://kit.fontawesome.com/2f9251257a.js" crossorigin="anonymous"></script>
-    <script type="module" src="/src/main.jsx"></script>
+    <!-- <script type="module" src="/src/main.jsx"></script> -->
+<!-- Navbar -->
+    <div>
+      <div class="navbar">
+    <div class="flex-1">
+      <h3 class="text-4xl text-white font-bold">Arrpit</h3>
+    </div>
+    <div class="flex-none">
+    </div>
+  </div>
+      </div>
+
+<!-- Hero -->
+
+<div>
+  <div class="hero pt-14 pb-24 max-sm:pb-16 max-sm:pt-16 ">
+<div class="hero-content flex-col md:flex-row-reverse  px-8 ">
+<div >
+  <img src="/public/buffalo.svg" class=" max-sm:w-48  max-w-sm  rounded-full  " />
+  </div>
+  <div class='px-6 '>
+    <h1 class="text-white max-sm:text-5xl text-7xl font-bold font-serif">Hello !!</h1>
+    <p class="text-white text-3xl py-10 max-sm:text-xl">I am Arrpit Tiwari , a Full-Stack Developer. I can debug your code faster than a hummingbird on Red Bull. Just don't ask me to explain it in plain English.</p>
+    <a href="https://drive.google.com/file/d/10WpAgG2qkYyXEj4psnSxSoObePuoU9Sw/view?usp=sharing" target="_blank"><button  class="btn btn-warning animate-bounce hover:btn-success">View  Resume</button></a>
+  </div>
+</div>
+</div>
+  </div>
+
+  <!-- Experience -->
+
+  <section  class="flex flex-col gap-4  max-sm:px-2 px-20 py-12 max-sm:py-6 ">
+    <h1 class=" font-bold font-serif text-5xl underline pt-0 pb-20 text-center max-sm:text-4xl">Experience</h1>
+     <div class="flex flex-col gap-4">
+       <div class="flex justify-between items-center">
+         <div>
+           <h3 class="text-2xl max-sm:text-xl font-semibold">
+             Full Stack Developer Intern
+           </h3>
+           <p class="text-lg underline italic"><a href="https://silverseven.com/" target='_blank'>Silverseven Enterprises</a></p>
+         </div>
+         <div class="text-xl max-sm:text-xs">Dec-2023 - Present</div>
+       </div>
+       <ul class="list-disc pl-4">
+         <li class='py-2'>
+         Developed a comprehensive website for the NGO Poshan for All as part of a collaboration with Silverseven
+Enterprises.
+         </li>
+         <li class='py-2'>
+         Implemented the entire web application using the MERN stack (MongoDB, Express.js, React.js, Node.js) from
+scratch, showcasing full-stack development skills.
+         </li>
+         <li class='py-2'>
+         Took ownership of the project, managing the entire development lifecycle independently as a full stack developer
+intern
+         </li>
+         <li class="py-2">
+         • Implemented robust backend functionalities using Node.js and Express.js, including database management with
+MongoDB.
+         </li>
+         <li class="py-2">
+         Collaborated with the NGO stakeholders to gather requirements, incorporating feedback for continuous
+improvement.
+         </li>
+       </ul>
+     </div>
+   </section>
+
+   <!-- Projects -->
+
+   <div class="text-center" >
+    <h1 class=" font-bold font-serif text-5xl underline pt-0 pb-20 max-sm:text-4xl">Projects</h1>
+      <Projects />
+    </div>
+
+   <div class="flex flex-wrap justify-center items-center gap-4">
+ 
+ <div class="card card-compact max-sm:w-72 w-96 shadow-lg">
+<figure><img src="/public/Lyricist.jpg" alt="Shoes" /></figure>
+<div class="card-body">
+  <h2 class="card-title">Lyricist</h2>
+  <p></p>
+  <div class="card-actions justify-end ">
+  <a href="https://lyricist-ten.vercel.app/" target="_blank"><button class="btn btn-ghost outline">Demo</button></a>
+   <a href="https://github.com/arpittiwari24/Lyricist" target="_blank"><button class="btn btn-ghost outline">Code</button></a>
+  </div>
+</div>
+</div>
+
+<div class="card card-compact max-sm:w-72 w-96 shadow-xl">
+<figure><img src="/public/poshan.jpg" alt="Shoes" /></figure>
+<div class="card-body">
+  <h2 class="card-title">Poshan</h2>
+  <p></p>
+  <div class="card-actions justify-end">
+  <a href="https://poshan.in" target="_blank"><button class="btn btn-ghost outline">Demo</button></a>
+  </div>
+</div>
+</div>
+
+
+<div class="card card-compact max-sm:w-72 w-96 shadow-xl">
+<figure><img src="/public/petite.jpg" alt="Shoes" /></figure>
+<div class="card-body">
+  <h2 class="card-title">Petite</h2>
+  <p></p>
+  <div class="card-actions justify-end">
+   <a href="https://petite-x.vercel.app/" target="_blank"><button class="btn btn-ghost outline">Demo</button></a>
+   <a href="https://github.com/arpittiwari24/petite" target="_blank"><button class="btn btn-ghost outline">Code</button></a>
+  </div>
+</div>
+</div>
+
+
+
+<div class="card card-compact max-sm:w-72 w-96 shadow-xl">
+<figure><img src="/public/todo.jpg" alt="Shoes" /></figure>
+<div class="card-body">
+  <h2 class="card-title">TodoApp</h2>
+  <p></p>
+  <div class="card-actions justify-end">
+    <a href="https://todo-frontend-mu-two.vercel.app/" target="_blank"><button class="btn btn-ghost outline">Demo</button></a>
+    <a href="https://github.com/arpittiwari24/todo-frontend" target="_blank"><button class="btn btn-ghost outline">Code</button></a>
+  </div>
+</div>
+</div>
+  </div>
+
+  <!-- Contact -->
+
+  <div>
+    <div class='py-10'>
+      <h1 class="text-white text-center text-3xl md:text-5xl font-bold py-10 underline">Connect With Me</h1>
+    </div>
+    <div class="px-8 text-center">
+        <a href="https://twitter.com/arrpitttwts" target="_blank" class="text-7xl px-8 text-black hover:animate-pulse"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://github.com/arpittiwari24" target="_blank" class="text-7xl px-8 text-black hover:animate-pulse"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/arrpit-tiwari-0447b5228/" target="_blank" class="text-7xl px-8 text-black hover:animate-pulse"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/arrpit.tiwari/" target="_blank" class="text-7xl px-8 text-black hover:animate-pulse"><i class="fa-brands fa-instagram"></i></a>
+        <a href="mailto:atofficial2410@gmail.com" target="_blank" class="text-7xl px-8 text-black hover:animate-pulse"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </div>
+
+
   </body>
 </html>
